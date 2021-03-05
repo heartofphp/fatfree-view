@@ -1,0 +1,21 @@
+{
+    "name": "heartofphp/fatfree",
+    "description": "An extraction of the Fat-Free Framework to use externally",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Developer Kwame",
+        "email": "developerkwame@gmail.com"
+    }],
+    "require": {
+        "symfony/var-dumper": "5.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "F3\\": "src/"
+        },
+        "files": ["src/helpers.php"]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
