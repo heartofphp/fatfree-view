@@ -7,9 +7,6 @@
         "name": "Developer Kwame",
         "email": "developerkwame@gmail.com"
     }],
-    "require": {
-        "symfony/var-dumper": "5.x-dev"
-    },
     "autoload": {
         "psr-4": {
             "F3\\": "src/"
